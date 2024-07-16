@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Kanit;
+    src: url(../font/Kanit-Bold.ttf);
+} 
+@font-face { 
+    font-family: KanitReg;
+    src: url(../font/Kanit-Regular.ttf);
+} 
+
+@keyframes _menu {
+   0% {transform: rotate(0)}
+   100% {transform: rotate(90deg)}    
+}
+.menuAnimation{
+    animation: _menu 0.2s linear;
+}
+
